@@ -11,3 +11,7 @@ key_pair = ec2.create_key_pair(KeyName='testing123')
 KeyPairOut = str(key_pair.key_material)
 outfile.write(KeyPairOut)
 outfile.close()
+
+
+
+second code
